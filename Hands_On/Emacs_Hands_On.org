@@ -14,3 +14,186 @@
 #+LaTeX_HEADER: \newminted{common-lisp}{fontsize=\footnotesize}
 
 
+* After Installation
+
+  Notice that after the installation your Emacs will not look like
+  mine. It will be an ugly white program with little functionality.
+
+  [[file:images/Bildschirmfoto 2021-02-17 um 10.52.06.png]]
+
+  The key idea is the *customization* idea of Emacs that we previously
+  discussed.
+
+  Emacs is shipped as almost nothing at the beginning - i.e. all of
+  the cool packages are not included. It is up to you to make sense of
+  it and customize your emacs however you want.
+
+  To do that you have essentially to modify your =.emacs= file. This
+  is usually in the =~= folder. If it does not exists create it.
+
+  You also will have an =.emacs.d= directory in the =~= where all of the
+  downloaded packages will live. If it does not exists create it.
+
+  Then enable all of the different package managers. MELPA, Marmalade,
+  ELPA, mirrors etc.
+
+  You are good to go and start to download the packages you
+  want. Check at the =M-x list-packages= function.
+
+  
+* Other Way - Centaur and possibly similar
+
+  The other way is not to download emacs from the official
+  source and start from scratch at your speed.
+
+  There are people that went extremely harsh into emacs and created
+  crazy emacs configurations.
+
+  They dockerized everything such that you should theoretically be
+  able to run the docker image for such emacs, with all of the
+  dependencies on the 1000s packages you will use next to your emacs.
+
+  You will then be blown at the beginning with a crazy out of the box
+  emacs. I know one such option is centaur emacs. You can find [[https://github.com/danielcnorris/centaur-emacs][it
+  here]].
+
+  I have no experience with it. I started two years ago with emacs and
+  coming from economics I had no great idea of the software world. I
+  started from 0 and by googling made my way. Might be that this is a
+  very viable option. I will not switch as everything I have of my
+  emacs comes from me and I know my emacs like my pockets.
+
+  This is the decision you will have to make. If you go with centaur
+  and similar it might be tough to jump in such a huge sea without
+  having any clue on how to navigate it. Maybe it is better to go
+  slower but build your own emacs where you understand all of the
+  config and all what you have in there.
+
+  You can then spend time, from time to time to check what others are
+  doing. I choose this road, coping from here and there but always
+  integrating everything myself such that I know what it is in my
+  emacs. Up to you there is no right or wrong.
+
+
+  
+* My Emacs Configuration and some Packages I like
+
+  
+  
+** Task Management and Agenda
+
+*** Have a word on Org-Mode
+*** Explain the task management 
+*** Explain how you can view todos - for one file or project
+*** Explain how you can decide what tasks status you can cycle with
+*** Show the org capture
+*** Show agenda
+*** Recall the org journal some people work with it
+
+    I  personally never took the time to check at this into detail
+*** Talk about tags
+
+** Org babel and literate Programming
+   :properties:
+   :header-args:python: :session baubab
+   :end:
+
+*** Python - Example
+
+    #+begin_src python
+    
+    #+end_src
+   
+*** Tell that this is just a dummy and fraction of possibilities
+
+*** Can pipe results from one org block to another; mix languages and much more
+
+*** On Compiler - based Languages
+
+    Also other languages work. Even languages that need a compiler!
+    Did not use this myself and have no idea how the workflow for such
+    languages is but I know for sure that experts Software Engineers
+    and Developers use it - so you might want to check online if that
+    is anything interesting for your.
+
+
+   
+** PlatUML - For Architects / Software Engineers
+
+*** Show this dummy example
+
+    Once you set it up you can create your UML diagrams directly into
+    Emacs. You can check at the [[https://plantuml.com/de/][PlantUML documentation]].
+
+    Example:
+
+   #+begin_src plantuml :file ~/Desktop/emacs_presentation/Hands_On/images/uml_example.svg :exports none
+   @startuml
+   package "Some Group" {
+     HTTP - [First Component]
+     [Another Component]
+   }
+
+   node "Other Groups" {
+     FTP - [Second Component]
+     [First Component] --> FTP
+   }
+
+   cloud {
+     [Example 1]
+   }
+
+
+   database "MySql" {
+     folder "This is my folder" {
+       [Folder 3]
+     }
+     frame "Foo" {
+       [Frame 4]
+     }
+   }
+
+
+   [Another Component] --> [Example 1]
+   [Example 1] --> [Folder 3]
+   [Folder 3] --> [Frame 4]
+      circle A
+      circle B
+      circle C
+      circle D
+
+
+      A --> B
+      A --> C
+
+      B --> D
+      C --> D
+   @enduml
+   #+end_src
+
+   #+RESULTS:
+   [[file:~/Desktop/emacs_presentation/Hands_On/images/uml_example.svg]]
+
+
+** Scientific Documentation
+   
+*** Show Export in Latex
+
+*** Show Export in HTML
+
+
+** Ein - Emacs Jupyter Notebook
+   :properties:
+   :header-args:ein-python: :session 
+   :end:
+   
+
+   Show then how you can program in emacs and how also all the
+   matplotlib stuff.
+
+
+   
+   
+** Magit
+
+*** Show magit Example

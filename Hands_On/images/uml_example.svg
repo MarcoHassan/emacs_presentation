@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="545px" preserveAspectRatio="none" style="width:603px;height:545px;" version="1.1" viewBox="0 0 603 545" width="603px" zoomAndPan="magnify"><defs><filter height="300%" id="f7qgrdagcdbha" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[262aabfe314dcb38308ea550cce12173]
+cluster Some Group--><polygon fill="#FFFFFF" filter="url(#f7qgrdagcdbha)" points="25,24,118,24,125,46.4883,443,46.4883,443,111,25,111,25,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="25" x2="125" y1="46.4883" y2="46.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="29" y="39.5352">Some Group</text><!--MD5=[a809f7b457cbc4d947186a4bb863b06b]
+cluster Other Groups--><polygon fill="#FFFFFF" filter="url(#f7qgrdagcdbha)" points="22,147,32,137,263,137,263,219,253,229,22,229,22,147" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="253" x2="262" y1="147" y2="138"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="253" y1="147" y2="147"/><line style="stroke: #000000; stroke-width: 1.5;" x1="253" x2="253" y1="147" y2="229"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="90" y="163.5352">Other Groups</text><path d="M295.0481,170.8457 C298.9356,163.7351 304.2812,162.8656 310.3338,168.1827 C314.6317,161.9278 318.5722,160.6603 323.4956,167.5566 C327.7092,162.4089 333.1246,161.6775 336.6872,168.2869 C339.1034,160.0713 346.1595,159.3845 351.1521,165.7269 C355.7233,159.4716 360.834,160.05 364.6982,166.4818 C368.271,160.7671 374.1372,160.9171 376.9555,167.2495 C382.2702,160.2001 387.7692,161.207 391.4248,168.8801 C395.852,163.3152 402.1759,163.223 404.6695,170.8252 C410.2416,174.2831 411.142,178.9328 404.7966,182.5203 C411.7739,186.6967 412.1859,191.3416 405.995,196.636 C410.5775,200.9389 411.546,204.5685 405.1175,208.023 C410.9702,212.6013 411.8186,217.9222 404.7438,222.1588 C401.5835,229.506 396.2928,231.8534 390.3331,224.9996 C387.2217,232.6894 381.6012,232.7575 376.8141,226.6405 C372.3842,231.8848 368.2666,232.5793 363.8115,226.6699 C361.1967,234.2119 356.3162,236.0276 350.2794,230.1105 C345.8349,235.2233 338.8127,235.4179 336.4536,227.8387 C330.8646,234.0367 326.4544,233.7918 322.6906,226.0382 C318.4433,230.9807 313.9539,231.5854 310.6375,225.0597 C304.6589,230.3854 300.6339,229.3895 297.1453,222.344 C289.4732,220.0791 286.7095,214.8642 292.2031,208.0478 C286.1096,206.1029 284.9837,200.1271 289.9365,196.0886 C283.342,191.2618 285.2639,185.5405 292.0306,182.8228 C287.7841,177.8586 288.4534,173.0785 295.0481,170.8457 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><!--MD5=[a8e31809c94bd3920922c17a126bb0b3]
+cluster MySql--><path d="M266,263 C266,253 360.5,253 360.5,253 C360.5,253 455,253 455,263 L455,523 C455,533 360.5,533 360.5,533 C360.5,533 266,533 266,523 L266,263 " fill="#FFFFFF" filter="url(#f7qgrdagcdbha)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M266,263 C266,273 360.5,273 360.5,273 C360.5,273 455,273 455,263 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="339" y="288.5352">MySql</text><!--MD5=[57a7dd60b0970f41fd8892a58576fbc8]
+cluster This is my folder--><polygon fill="#FFFFFF" filter="url(#f7qgrdagcdbha)" points="290,311,421,311,428,333.4883,431,333.4883,431,398,290,398,290,311" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="290" x2="428" y1="333.4883" y2="333.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="294" y="326.5352">This is my folder</text><!--MD5=[b098bf3b49ab5940c6091a421f0675e2]
+cluster Foo--><rect fill="#FFFFFF" filter="url(#f7qgrdagcdbha)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="108" x="295" y="422"/><path d="M331,423 L331,431.4883 L321,441.4883 L295,441.4883 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="26" x="298" y="436.5352">Foo</text><!--MD5=[96f7e1299d4a43069e6ed32352fcac20]
+entity HTTP--><ellipse cx="221" cy="77" fill="#FEFECE" filter="url(#f7qgrdagcdbha)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="203" y="107.5352">HTTP</text><!--MD5=[cbd7cda55f2530e2efe43ec72c097853]
+entity First Component--><rect fill="#FEFECE" filter="url(#f7qgrdagcdbha)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="41.5" y="59"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="36.5" y="64"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="36.5" y="85.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="51.5" y="82.5352">First Component</text><!--MD5=[b9d11f23832c1491231c5b33e55ab8c6]
+entity Another Component--><rect fill="#FEFECE" filter="url(#f7qgrdagcdbha)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="161" x="265.5" y="59"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="260.5" y="64"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="260.5" y="85.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="141" x="275.5" y="82.5352">Another Component</text><!--MD5=[76af18d92d7d7c0f7ebd8f4f605ac5aa]
+entity FTP--><ellipse cx="47" cy="195" fill="#FEFECE" filter="url(#f7qgrdagcdbha)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="25" x="34.5" y="225.5352">FTP</text><!--MD5=[0e2cc1aee2c7f52697e111b4fb84546c]
+entity Second Component--><rect fill="#FEFECE" filter="url(#f7qgrdagcdbha)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="155" x="91.5" y="177"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="86.5" y="182"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="86.5" y="203.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="101.5" y="200.5352">Second Component</text><!--MD5=[243c1e580c31013c48b02624e18b25a7]
+entity Example 1--><rect fill="#FEFECE" filter="url(#f7qgrdagcdbha)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="92" x="303" y="177"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="298" y="182"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="298" y="203.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="313" y="200.5352">Example 1</text><!--MD5=[3e0e08c92570480402984701ab5a6d2d]
+entity Folder 3--><rect fill="#FEFECE" filter="url(#f7qgrdagcdbha)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="77" x="310.5" y="346"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="305.5" y="351"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="305.5" y="372.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="320.5" y="369.5352">Folder 3</text><!--MD5=[63877ed85df621d134a6c80fb52dad56]
+entity Frame 4--><rect fill="#FEFECE" filter="url(#f7qgrdagcdbha)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="311" y="457"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="306" y="462"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="306" y="483.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="321" y="480.5352">Frame 4</text><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><ellipse cx="496" cy="77" fill="#FEFECE" filter="url(#f7qgrdagcdbha)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="10" x="491" y="107.5352">A</text><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
+entity B--><ellipse cx="495" cy="195" fill="#FEFECE" filter="url(#f7qgrdagcdbha)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="8" x="491" y="225.5352">B</text><!--MD5=[16fab723be418f7eaf2ea4bd895a8e51]
+entity C--><ellipse cx="584" cy="195" fill="#FEFECE" filter="url(#f7qgrdagcdbha)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="10" x="579" y="225.5352">C</text><!--MD5=[118f42602524ad482f02b27ef22fc383]
+entity D--><ellipse cx="499" cy="364" fill="#FEFECE" filter="url(#f7qgrdagcdbha)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="10" x="494" y="394.5352">D</text><!--MD5=[46d996859f59e5baf77956ce93023cee]
+link HTTP to First Component--><path d="M211.68,77 C200.06,77 188.43,77 176.81,77 " fill="none" id="HTTP-First Component" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1966a42bb49d59057147dbda06282f4b]
+link FTP to Second Component--><path d="M56.05,195 C67.82,195 79.58,195 91.35,195 " fill="none" id="FTP-Second Component" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d3aefbd8005e27b21e7ce98ddd948193]
+link First Component to FTP--><path d="M95.75,95.36 C88.77,104.97 80.36,117.3 74,129 C64.63,146.25 56.39,167.45 51.55,180.85 " fill="none" id="First Component-&gt;FTP" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="49.8,185.75,56.5775,178.604,51.4708,181.0374,49.0374,175.9307,49.8,185.75" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[efc1ffe8b578a0fb156c7bce303319bb]
+link Another Component to Example 1--><path d="M346.44,95.12 C346.97,115.42 347.84,149.32 348.42,171.67 " fill="none" id="Another Component-&gt;Example 1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="348.56,176.81,352.3273,167.7102,348.4315,171.8117,344.33,167.9158,348.56,176.81" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7ec8393a78a133520e8846dd05a7857a]
+link Example 1 to Folder 3--><path d="M349,213.24 C349,243.62 349,306.64 349,340.44 " fill="none" id="Example 1-&gt;Folder 3" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="349,345.6,353,336.6,349,340.6,345,336.6,349,345.6" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b96c7096199393c1414a8b4e9ed2c30f]
+link Folder 3 to Frame 4--><path d="M349,382.03 C349,400.8 349,431.05 349,451.7 " fill="none" id="Folder 3-&gt;Frame 4" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="349,456.73,353,447.73,349,451.73,345,447.73,349,456.73" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5e2eec62a50b26b6b0db6c12e4ee289c]
+link A to B--><path d="M495.93,86.34 C495.76,106.16 495.33,156.2 495.12,180.43 " fill="none" id="A-&gt;B" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="495.07,185.73,499.147,176.7646,495.1129,180.7302,491.1473,176.696,495.07,185.73" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e1650921a81fac0037ec207a42ac4e7e]
+link A to C--><path d="M503.47,86.06 C512.48,95.91 527.91,113.22 540,129 C553.43,146.54 567.49,167.93 576,181.26 " fill="none" id="A-&gt;C" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="578.88,185.78,577.4164,176.0405,576.1928,181.5635,570.6699,180.3399,578.88,185.78" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[635162b0568dccf9b81699e51957888e]
+link B to D--><path d="M495.19,204.05 C495.83,230.66 497.87,315.94 498.67,349.37 " fill="none" id="B-&gt;D" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="498.8,354.63,502.5673,345.5302,498.6715,349.6317,494.57,345.7358,498.8,354.63" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[95ca888c4bb7ed1df160562281720a5c]
+link C to D--><path d="M579.9,204.05 C566.3,230.77 522.59,316.65 505.73,349.78 " fill="none" id="C-&gt;D" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="503.26,354.63,510.9104,348.4274,505.5303,350.1751,503.7826,344.795,503.26,354.63" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[adf3180ec9c17bb2472c49a94290ab05]
+@startuml
+package "Some Group" {
+  HTTP - [First Component]
+  [Another Component]
+}
+
+node "Other Groups" {
+  FTP - [Second Component]
+  [First Component] - -> FTP
+}
+
+cloud {
+  [Example 1]
+}
+
+
+database "MySql" {
+  folder "This is my folder" {
+    [Folder 3]
+  }
+  frame "Foo" {
+    [Frame 4]
+  }
+}
+
+
+[Another Component] - -> [Example 1]
+[Example 1] - -> [Folder 3]
+[Folder 3] - -> [Frame 4]
+   circle A
+   circle B
+   circle C
+   circle D
+
+
+   A - -> B
+   A - -> C
+
+   B - -> D
+   C - -> D
+@enduml
+
+PlantUML version 1.2020.05(Thu Mar 19 22:17:32 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_251-b08
+Operating System: Mac OS X
+Default Encoding: US-ASCII
+Language: de
+Country: CH
+--></g></svg>
