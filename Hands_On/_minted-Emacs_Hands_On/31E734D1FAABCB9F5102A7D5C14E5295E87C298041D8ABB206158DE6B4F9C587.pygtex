@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{win\PYGZus{}1mio} \PYG{p}{():}
+    \PYG{k}{return} \PYG{l+m+mi}{10}\PYG{o}{**}\PYG{l+m+mi}{6}
+\end{Verbatim}

@@ -74,6 +74,7 @@
   integrating everything myself such that I know what it is in my
   emacs. Up to you there is no right or wrong.
 
+
 * My Emacs Configuration and some Packages I like
 
 ** Task Management and Agenda
@@ -88,6 +89,7 @@
 
     I  personally never took the time to check at this into detail
 *** Talk about tags
+
 
 ** Org babel and literate Programming
    :properties:
@@ -166,7 +168,7 @@ a
 
     Example:
 
-   #+begin_src plantuml :file ~/Desktop/emacs_presentation/Hands_On/images/uml_example.svg :exports none
+   #+begin_src plantuml :file ~/Desktop/emacs_presentation/Hands_On/images/uml_example.svg :exports both 
    @startuml
    package "Some Group" {
      HTTP - [First Component]
@@ -223,11 +225,52 @@ a
 
 ** Ein - Emacs Jupyter Notebook
    :properties:
-   :header-args:ein-python: :session 
+   :header-args:ein-python: :session http://127.0.0.1:8888/matplot_show.ipynb  :results output
    :end:
    
    Show then how you can program in emacs and how also all the
    matplotlib stuff.
+
+#+NAME: E856E946-2362-4E02-82D6-10595C33464E
+#+begin_src ein-python :results output
+import matplotlib.pyplot as plt
+%matplotlib inline 
+%config InlineBackend.figure_format = 'png'
+import numpy as np
+import pandas as pd
+#+end_src
+
+#+RESULTS: E856E946-2362-4E02-82D6-10595C33464E
+   
+#+NAME: 2C9D2711-E7AE-4746-A225-261C92A95C32
+#+begin_src ein-python :results output
+X = 2 * np.random.rand(100,1)
+y = 4 +3 * X+np.random.randn(100,1)
+
+mydat = pd.DataFrame ({'x':X.flatten(), 'y': y.flatten()})
+
+mydat.columns = ["nomean", "posmean"]
+#+end_src
+
+#+RESULTS: 2C9D2711-E7AE-4746-A225-261C92A95C32
+
+#+NAME: 36ED96E1-F792-43E2-B551-75048B54871E
+#+begin_src ein-python :results output
+plt.plot(mydat.nomean, c = "lightblue", ls = '--', marker = "o",
+         ms = 6, label ="nomean")
+plt.plot(mydat.posmean, c = "darkorange", ls = '--', marker = "s",
+         ms = 6, label ="posmean") # ms = marker size
+plt.legend(loc = 'upper right',bbox_to_anchor = (1,1))
+plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
+                                                   # x-axis and puts
+                                                   # them vertically.
+#+end_src
+
+#+RESULTS: 36ED96E1-F792-43E2-B551-75048B54871E
+[[file:ein-images/ob-ein-4bed654b123969f613f32da62ab8287f.png]]
+
+   Good you are done.
+
 
 ** Magit
 
