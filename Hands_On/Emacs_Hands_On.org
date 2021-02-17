@@ -1,0 +1,16 @@
+# -*- mode:org; mode:reftex; indent-tabs-mode:nil; tab-width:2 -*-
+#+TITLE: Emacs Hands On Session - Some Libraries
+#+AUTHOR:    Marco Hassan
+#+LANGUAGE:  en
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LATEX: \setlength\parindent{0pt}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage[cache=false]{minted}[obeytabs]
+#+LaTeX_HEADER: \newcommand{\sh}[1]{\lstset{language={Bash},basicstyle={\ttfamily\small}}\lstinline{#1}}
+#+LaTeX_HEADER: \usemintedstyle{emacs}
+#+LaTeX_HEADER: \newminted{common-lisp}{fontsize=\footnotesize}
+
+

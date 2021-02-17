@@ -1,5 +1,5 @@
 This is the Repo for the presentation that I did hold for the [[https://www.meetup.com/de-DE/Open-Source-Forderer-in-der-Schweiz/events/276400392/][Open-CH
-Meetup]] the 14/04, Zürich (ZH).
+Meetup]] the 14/04/2021, Zürich (ZH).
 
 Here is all of the material I used for that session.
 
