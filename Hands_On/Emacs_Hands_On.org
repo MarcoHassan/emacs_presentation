@@ -91,6 +91,12 @@
 *** Talk about tags
 
 
+** Show Time management and pomodoro
+
+*** Start and stop org clocks
+
+*** Show pomodoro functionality    
+
 ** Org babel and literate Programming
    :properties:
    :header-args:python: :session baubab :tangle ~/Desktop/emacs_presentation/Hands_On/tangle_code/tangle_example.py
@@ -276,6 +282,7 @@ plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
 
 *** Show magit Example
 
+   
     
 * Warning
 
