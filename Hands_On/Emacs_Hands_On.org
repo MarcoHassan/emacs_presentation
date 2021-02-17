@@ -74,12 +74,8 @@
   integrating everything myself such that I know what it is in my
   emacs. Up to you there is no right or wrong.
 
-
-  
 * My Emacs Configuration and some Packages I like
 
-  
-  
 ** Task Management and Agenda
 
 *** Have a word on Org-Mode
@@ -95,15 +91,58 @@
 
 ** Org babel and literate Programming
    :properties:
-   :header-args:python: :session baubab
+   :header-args:python: :session baubab :tangle ~/Desktop/emacs_presentation/Hands_On/tangle_code/tangle_example.py
    :end:
+
+
+   Notice this is the best for product documentation or for projects
+   where you have total ownership of something. As soon as you start
+   to work in big projects of course there are limits to the extent to
+   which you can use it. As soon as you tangle you tangle it all and
+   overwrite the buffer.
+
+   I do not know, and did not check to this point if there is some
+   conflict resolution scheme similar to git that you can
+   integrate. That would be the endgame.
+   
+   Also for working and learning by your own this is great.
 
 *** Python - Example
 
-    #+begin_src python
+    Hello I write my documentation here. I do literate
+    programming. Write what I am doing both for myself and for the
+    friends I have to work with such that they will love me.
+
+#+begin_src python
+print ("Hello world")    
+#+end_src
+
+     Above I have written hello world. Next I will write this very
+     complex function that is key to my project.
+     
+#+begin_src python
+def win_1mio ():
+    return 10**6
+#+end_src
+
+     Etc. etc. You got the idea.
+
+     Notice that through the session argument above babel understand
+     that all of the blocks in the subtree belongs to the same runtime
+
+#+begin_src python
+a = 2
+#+end_src
+
+#+RESULTS:
+
+#+begin_src python
+a
+#+end_src
+
+#+RESULTS:
+: 2
     
-    #+end_src
-   
 *** Tell that this is just a dummy and fraction of possibilities
 
 *** Can pipe results from one org block to another; mix languages and much more
@@ -187,13 +226,33 @@
    :header-args:ein-python: :session 
    :end:
    
-
    Show then how you can program in emacs and how also all the
    matplotlib stuff.
 
-
-   
-   
 ** Magit
 
 *** Show magit Example
+
+    
+* Warning
+
+  You live in your own bubble once you start with emacs. Consider it
+  well if that is something you want to do. There are plenty of other
+  workflow options. This is a rather complex and involved one.
+
+  I hope that I made some of the advantages clear. Notice that on the
+  downside is that it is something that you have to invest lots of
+  time in. Continuously. Software evolves and so does your emacs.
+
+  I learned it when I was not working and just studying during my
+  Masters and had quite a bit of spare time.
+
+  I love it and now that I did the effort will never go back. The
+  majority of the people around you will not understand what you are
+  doing with your emacs and so you will not be appreciated for being
+  an emacs master by itself.
+
+  You have to do it for your own and because you believe that with it
+  you can reach a higher productivity. And this is why eventually
+  people will appreciate you at work even if they have no clue about
+  why your screen always looks like you are still in the 90s.
