@@ -15,6 +15,9 @@
 
 
 * After Installation
+  :LOGBOOK:
+  CLOCK: [2021-03-02 Tue 15:40]--[2021-03-02 Tue 15:40] =>  0:00
+  :END:
 
   Notice that after the installation your Emacs will not look like
   mine. It will be an ugly white program with little functionality.
@@ -42,6 +45,9 @@
 
   
 * Other Way - Centaur and possibly similar
+  :LOGBOOK:
+  CLOCK: [2021-03-02 Tue 15:40]--[2021-03-02 Tue 15:40] =>  0:00
+  :END:
 
   The other way is not to download emacs from the official
   source and start from scratch at your speed.
@@ -96,6 +102,7 @@
 *** Start and stop org clocks
 
 *** Show pomodoro functionality    
+
 
 ** Org babel and literate Programming
    :properties:
@@ -162,9 +169,16 @@ a
     languages is but I know for sure that experts Software Engineers
     and Developers use it - so you might want to check online if that
     is anything interesting for your.
-
-
    
+*** Labels and References
+
+    When your files start to get too big it might be difficult to
+    search for the material you are interest in. You might make notes
+    on sections. Either straight with the properties tag, org via
+    following [[label:my-label]] tags. You can later reference such
+    labels. [[ref:my-second]]
+
+
 ** PlatUML - For Architects / Software Engineers
 
 *** Show this dummy example
@@ -247,6 +261,7 @@ import pandas as pd
 #+end_src
 
 #+RESULTS: E856E946-2362-4E02-82D6-10595C33464E
+: [....]
    
 #+NAME: 2C9D2711-E7AE-4746-A225-261C92A95C32
 #+begin_src ein-python :results output
@@ -259,6 +274,7 @@ mydat.columns = ["nomean", "posmean"]
 #+end_src
 
 #+RESULTS: 2C9D2711-E7AE-4746-A225-261C92A95C32
+: [....]
 
 #+NAME: 36ED96E1-F792-43E2-B551-75048B54871E
 #+begin_src ein-python :results output
@@ -273,7 +289,7 @@ plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
 #+end_src
 
 #+RESULTS: 36ED96E1-F792-43E2-B551-75048B54871E
-[[file:ein-images/ob-ein-4bed654b123969f613f32da62ab8287f.png]]
+: [....]
 
    Good you are done.
 
@@ -283,7 +299,12 @@ plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
 *** Show magit Example
 
    
-    
+
+** Org-ref
+
+   Just if you have time show how it works. This is a bomb.
+
+   
 * Warning
 
   You live in your own bubble once you start with emacs. Consider it
@@ -306,3 +327,9 @@ plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
   you can reach a higher productivity. And this is why eventually
   people will appreciate you at work even if they have no clue about
   why your screen always looks like you are still in the 90s.
+
+* TODO Label Reference demo
+
+  Just use this for showing label references structures.
+
+  [[label:my-second]] [[ref:my-label]]
