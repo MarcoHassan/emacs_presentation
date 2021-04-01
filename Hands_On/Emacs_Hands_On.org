@@ -88,6 +88,7 @@
 *** Have a word on Org-Mode
 *** Explain the task management 
 *** Explain how you can view todos - for one file or project
+*** Mention org-jira and org-trello    
 *** Explain how you can decide what tasks status you can cycle with
 *** Show the org capture
 *** Show agenda
@@ -297,7 +298,6 @@ plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
 ** Magit
 
 *** Show magit Example
-
    
 
 ** Org-ref
@@ -305,6 +305,10 @@ plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
    Just if you have time show how it works. This is a bomb.
 
    
+** Bonus video
+
+   Look at [[https://www.youtube.com/watch?v=f7xB2fFk1tQ][this]] video if you want to start going emacs at 100%.
+
 * Warning
 
   You live in your own bubble once you start with emacs. Consider it
@@ -328,8 +332,12 @@ plt.xticks(list(range(20)), rotation = 'vertical') # sets the ticks on
   people will appreciate you at work even if they have no clue about
   why your screen always looks like you are still in the 90s.
 
+  
+
+
 * TODO Label Reference demo
 
   Just use this for showing label references structures.
 
   [[label:my-second]] [[ref:my-label]]
+
